@@ -110,24 +110,6 @@ http://localhost/wjpark/
 
 ---
 
-## 📁 Struktur
-wjpark/
-├── index.php          ← Login
-├── dashboard.php      ← Dashboard & grafik (Admin)
-├── masuk.php          ← Catat kendaraan masuk
-├── keluar.php         ← Proses kendaraan keluar + struk
-├── kapasitas.php      ← Monitor kapasitas visual
-├── laporan.php        ← Laporan + hapus transaksi
-├── tarif.php          ← Kelola tarif + simulasi biaya
-├── users.php          ← Manajemen user
-├── koneksi.php        ← Koneksi DB + helper functions
-├── _layout.php        ← Header, sidebar, CSS, JS global
-├── _layout_end.php    ← Footer
-├── logout.php         ← Logout
-└── database.sql       ← Import ini ke MySQL
-
----
-
 ## ⚙️ Konfigurasi
 
 Edit `koneksi.php`:
